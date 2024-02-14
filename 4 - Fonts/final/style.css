@@ -1,0 +1,12 @@
+p {
+  /* Web Safe Font (No need to import it).
+  If Arial won't load, the fallback will be Helvetica, and then sans-serif */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+
+  /* Shorter way of doing it */
+  font: normal 16px Arial, Helvetica, sans-serif;
+
+  line-height: 1.5em;
+}

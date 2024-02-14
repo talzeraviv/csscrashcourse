@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #333333;
+  color: #fff;
+}
+
+/* To target a class, we use a dot.
+    .box-1
+*/
+
+/* You would want to use percentage, em, rem when dealing with containers in contrast to pixels, because that way it is responsive. */

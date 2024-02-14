@@ -1,0 +1,9 @@
+.container {
+  width: 20em;
+  height: 10em;
+  margin: auto;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 0 1em;
+}

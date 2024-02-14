@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 3. External CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- 2. Internal CSS -->
+    <style type="text/css">
+      h1 {
+        color: blue;
+      }
+    </style>
+
+    <title>Inline, Internal, External</title>
+  </head>
+  <body>
+    <!-- 1. Inline CSS -->
+    <h1 style="color: red">Hello World!</h1>
+  </body>
+</html>
+
+<!-- 
+1. We shouldn't combine the presentation with the style (CSS).
+We want to keep them seperate.
+This is NOT a recommended way of using CSS.
+
+2. Seperates the presentation layer from the style layer, but can only be used within this file.
+
+3. link TAG in the head element.
+'rel' stands for 'relationship'.
+The relationship here is "stylesheet",
+'href' stands for 'hypertext reference' which is where we describe the directory of the stylesheet in our folder structure.
+'type' is the MIME (Multipurpose Internet Mail Extensions) type of the linked resource we are attaching to our HTML file.
+-->

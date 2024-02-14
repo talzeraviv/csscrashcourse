@@ -1,0 +1,51 @@
+.p-box {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  background-image: url("./og.jpg");
+  background-position: 100px 200px;
+  background-position: center center;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+/* Position static by default. */
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: red;
+  color: white;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+/* Coming down 40px from the top.
+  It doesn't have a parent with position: relative, so it's using the entire html document from the top.
+*/
+
+/* Now it's down 40px and 200px from the left. */
+
+/* Helpful when building games that have to do with CSS.
+Like moving a checker piece around the board. */
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}

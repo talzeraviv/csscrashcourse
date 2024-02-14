@@ -1,0 +1,21 @@
+/* We Have a selector,
+It's going to apply the style to all 'a' element
+Opening brace, a property which is set to be changed (background color),
+A property/value separator(:), a value (yellow) and a declaration separator (;) 
+It's a key/value pair. */
+
+body {
+  background-color: black;
+}
+
+a {
+  background-color: yellow;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+p {
+  color: aliceblue;
+}

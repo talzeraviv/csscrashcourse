@@ -1,0 +1,28 @@
+body {
+  /* Color name */
+  background: rgb(25, 50, 50);
+}
+
+h1 {
+  /* Hexadecimal, can be shortened to 3 values. */
+  color: #dedede;
+}
+
+p {
+  /* RGB */
+  color: rgb(200, 200, 200);
+}
+/* 
+Colors in CSS
+In CSS, we can use:
+Color Names,
+HTML5 Color names
+Hexadecimal
+RGB
+ */
+
+/* 
+Color Names were present in older versions of HTML,
+and HTML5 added color names such as coral, mysty rose, etc.
+https://www.w3schools.com/tags/ref_colornames.asp
+ */

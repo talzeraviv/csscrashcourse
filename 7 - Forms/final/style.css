@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+}
+
+.clr {
+  clear: both;
+  /* In reference to what I wrote about 'float' */
+}
+
+.my-form {
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: red;
+  color: white;
+}
+
+.form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  /* Fixes our width and sizing so that everything fits in the width specified even though some CSS properties may take up more space from the outside. */
+  /* Flex box takes care of this stuff better */
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* We can make a button class, that we will apply to any button and have a custom theme. */
+
+/* inputs and labels are inline.
+Now I want to put them on a different line,
+What I'll do is set the display it to be a block.
+Block level elements are on a new line and go across the width of the line. */
+
+/* 
+Because we targeted inputs in the .my-form input, we targeted also buttons, radio buttons, etc.
+We can target certain types of inputs with brackets and it'll only target text.
+*/
